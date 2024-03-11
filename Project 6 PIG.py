@@ -15,7 +15,7 @@ def main():
             pass
     
     Scores = [0 for _ in range(players)]
-    Top_limit = 10
+    Top_limit = 50
 
     while max(Scores) < Top_limit:
         for i in range(players):
